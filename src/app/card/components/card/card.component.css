@@ -1,0 +1,41 @@
+.card {
+  background-color: var(--grey-800);
+  border-radius: 1rem;
+  max-width: 32.5rem;
+  color: var(--white);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+}
+
+.card__image {
+  object-fit: cover;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+}
+
+.card__name {
+  margin: 1rem 0;
+}
+
+.card__location {
+  margin: 0 0 1rem;
+  color: var(--green);
+}
+
+.card__bio {
+  margin: 1rem 0 2rem;
+  font-size: 1.2rem;
+}
+
+.card__links {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

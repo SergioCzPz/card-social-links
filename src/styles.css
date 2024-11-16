@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+  --font-family: "Inter", Arial, sans-serif;
+  --font-size: 1.4rem;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(assets/fonts/static/Inter-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(assets/fonts/static/Inter-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(assets/fonts/static/Inter-Bold.ttf);
+  font-weight: 700;
+}

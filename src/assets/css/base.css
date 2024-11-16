@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--grey-900);
+  font-family: var(--font-family);
+
+  /* To center card */
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+a {
+  display: block;
+}

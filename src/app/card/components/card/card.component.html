@@ -1,0 +1,27 @@
+<div class="card">
+  <div class="card-container">
+    <img
+      src="assets/images/avatar-jessica.jpeg"
+      [alt]="profile.name"
+      width="75"
+      height="75"
+      class="card__image"
+    />
+
+    <h2 class="card__name">
+      {{ profile.name }}
+    </h2>
+
+    <h3 class="card__location">
+      {{ profile.location }}
+    </h3>
+
+    <p class="card__bio">"{{ profile.bio }}"</p>
+
+    <div class="card__links">
+      @for (link of profile.links; track $index) {
+      <app-link [link]="link"></app-link>
+      }
+    </div>
+  </div>
+</div>
