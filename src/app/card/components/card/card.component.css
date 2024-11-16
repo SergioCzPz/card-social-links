@@ -5,6 +5,12 @@
   color: var(--white);
 }
 
+@media (min-width: 768px) {
+  .card {
+    max-width: 38.5rem;
+  }
+}
+
 .card-container {
   display: flex;
   flex-direction: column;
@@ -30,7 +36,13 @@
 
 .card__bio {
   margin: 1rem 0 2rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+}
+
+@media (min-width: 768px) {
+  .card__bio {
+    font-size: 1.4rem;
+  }
 }
 
 .card__links {

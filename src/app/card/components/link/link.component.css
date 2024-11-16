@@ -5,4 +5,11 @@
   border-radius: 1rem;
   background-color: var(--grey-700);
   font-size: var(--font-size);
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.link:hover {
+  background-color: var(--green);
+  color: var(--grey-900);
 }
